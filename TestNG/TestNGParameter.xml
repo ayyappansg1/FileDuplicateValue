@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sangar suite" verbose="2">
+<test name="Sangar test">
+<parameter name="
+" value="Ayyappan"></parameter>
+<classes>
+<class name="testNG.TestNgExercisesParameter"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sangar suite" verbose="2">
+<test name="Sangar Test">
+<classes>
+<class name="testNG.BeforeSuiteEx"></class>
+<class name="testNG.TestNgExercisesDepends"></class>
+<class name="testNG.TestNgExercisesuptoPriority"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [sangar suite]">
+  <listeners>
+    <listener class-name="testNG.Transformer"/>
+  </listeners>
+  <test name="sangar test">
+    <classes>
+      <class name="testNG.TestNgExercisesDepends"/>
+    </classes>
+  </test> <!-- sangar test -->
+  <test name="sangar test(failed)">
+    <classes>
+      <class name="testNG.TestNgExercisesDepends">
+        <methods>
+          <include name="secondTestCase"/>
+        </methods>
+      </class> <!-- testNG.TestNgExercisesDepends -->
+    </classes>
+  </test> <!-- sangar test(failed) -->
+</suite> <!-- Failed suite [sangar suite] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sangar suite" verbos="2">
+<listeners>
+<listener class-name="testNG.TestNgExercisesListeners">
+</listener>
+<test name="sangar test">
+<classes>
+<class name="testNG.TestNgExercisesLsteningClass"></class>
+</classes>
+</test>
+</listeners>
+</suite>
